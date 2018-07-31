@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf257d85-04a3-4d73-aba6-e004c3b31772" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/config/DB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/config/constantes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/models/sintomas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/routes/sintomas.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sintomas.route.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sintomas.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/routes/sintomas.route.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
               <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -72,6 +76,7 @@
         <option value="$PROJECT_DIR$/node/package.json" />
         <option value="$PROJECT_DIR$/node/index.js" />
         <option value="$PROJECT_DIR$/node/routes/sintomas.route.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -222,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533070869063</updated>
-      <workItem from="1533070870660" duration="810000" />
+      <workItem from="1533070870660" duration="1462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="810000" />
+    <option name="totallyTimeSpent" value="1462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -303,6 +308,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
