@@ -5,12 +5,12 @@ const express = require('express'),
     mongoose = require('mongoose'),
     config = require('./config/DB');
 
-const sintomasRoutes = require('./routes/sintomas.route');
+const personasRoutes = require('./routes/personas.route');
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
-    () => {console.log('Database is connected') },
-    err => { console.log('Can not connect to the database'+ err)}
+    () => {console.log('Database conectada correctamente') },
+    err => { console.log('Error al conectar con la base de datos: '+ err)}
 );
 
 const app = express();
@@ -18,8 +18,12 @@ app.use(bodyParser.json());
 app.use(cors());
 const port = process.env.PORT || 4000;
 
-app.use('/sintomas', sintomasRoutes);
+app.use('/personas', personasRoutes);
+
+app.get('/', function (req, res) {
+    res.send('Servidor iniciado correctamente!');
+});
 
 const server = app.listen(port, function(){
-    console.log('Listening on port ' + port);
+    console.log('Iniciado el proceso en el puerto: ' + port);
 });
