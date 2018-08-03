@@ -40,3 +40,8 @@ Thumbs.db
 
 # Credentials
 config/DB.js
+
+# Java
+/java/target
+/java/.mvn
+/lib

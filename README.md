@@ -29,6 +29,6 @@ Para iniciar el proceso basado en java basta con realizar los siguientes pasos:
 
 1. Descargar los fuentes del repositorio git.
 2. Acceder al directorio llamado java.
-3. Ejecutar el siguiente comando `npm install`.
+3. Ejecutar el siguiente comando `mvn install`.
 4. Ejecutar el siguiente comando `npm start`.
 5. El proceso se habrá iniciado en el puerto 4000. Para validarlo acceder a la url: [http://localhost:4000/](http://localhost:4000/)
